@@ -1,6 +1,6 @@
 function EmailExtractTransfer() {
   var sheet = SpreadsheetApp.getActiveSheet();
-  var thds = GmailApp.search('newer_than:d l:^ss_sr');
+  var thds = GmailApp.search('newer_than:5d l:^ss_sr');
   var row = 2;
   
   for(var n in thds){
